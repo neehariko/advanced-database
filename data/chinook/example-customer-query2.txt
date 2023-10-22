@@ -1,0 +1,1 @@
+select distinct(Customer.CustomerId), LastName, FirstName from Artist, Album, Track, InvoiceLine, Invoice, Customer where Artist.Name like "%Sinatra%" and Album.ArtistId = Artist.ArtistId and Track.AlbumId = Album.AlbumId and InvoiceLine.TrackId = Track.TrackId and InvoiceLine.InvoiceId = Invoice.InvoiceId and Invoice.CustomerId = Customer.CustomerId 

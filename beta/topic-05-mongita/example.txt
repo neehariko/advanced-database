@@ -1,0 +1,31 @@
+owner: 
+[{
+    id: 1,
+    name:"greg",
+    car:"toyota",
+    age:35,
+    boats: [
+     { id: 1, name: Precision, length:16 }
+     { id: 2, name: Pearson, length:28}
+     { id: 3, name: Oday, outboard: Nissan}
+    ]
+},
+{
+    name:"bob",
+    car:"toyota",
+    age:35,
+    
+},
+{
+    name:"annie",
+    car:"ford",
+    age:35,
+    
+}]
+
+boat:
+[
+     { id: 1, name: Precision , ownerid:1 }
+     { id: 2, name: Pearson , ownerid:1 }
+     { id: 3, name: Oday , ownerid:1 }
+]
